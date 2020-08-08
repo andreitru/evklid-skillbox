@@ -1,12 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Евклид. Проектрые системы</title>
+  <title>Евклид. Проектные системы</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  
+  <header class="header">
+    <div class="container">
+      <div class="logo"></div>
+      <nav class="header__nav"></nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
+      <section class="main__slider">
+        <h1 class="main__slider_title">
+          <p class="main__slider_text"></p>
+          <button class="main__slider_button">Заказать расчет</button>
+        </h1>
+      </section>
+    </div>
+    <div class="container">
+      <section class="about">
+        <h2 class="about__title title"></h2>
+        <p class="about__text text"></p>
+        <div class="about__bottom">
+          <div class="about__bottom_left">
+            <p class="about__bottom_left_text"></p>
+            <button class="about__bottom_left_button"></button>
+          </div>
+          <div class="about__bottom_right">
+            <h3 class="about__bottom_right_title sub-title"></h3>
+            <p class="about__bottom_right_text text"></p>
+            <h3 class="about__bottom_right_title sub-title"></h3>
+            <p class="about__bottom_right_text text"></p>
+          </div>
+        </div>
+      </section>
+      <section class="works">
+        <div class="container">
+          <div class="works__left">
+            <ul class="works__list list"></ul>
+            <h3 class="works__title sub-title"></h3>
+            <p class="works__text text"></p>
+            <button class="works_button_left button"></button>
+            <button class="works__button_right"></button>
+          </div>
+          <div class="works__right">
+            <img src="#" alt="" class="works__img">
+          </div>
+        </div>
+      </section>
+      <section class="faq">
+        <div class="container">
+          <h2 class="faq__title title"></h2>
+          <ul class="faq__list"></ul>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer__left">
+      <div class="footer__left_logo"></div>
+      <p class="footer__left_text"></p>
+      <div class="footer__left_social"></div>
+    </div>
+    <div class="footer__center">
+      <form action="post" class="footer__center_form">
+        <input type="text" class="form__input" name="name">
+        <input type="email" class="form__input" name="email">
+        <textarea name="message" id="textarea" cols="30" rows="10" class="form__input form__textarea"></textarea>
+        <input type="submit" value="Отправить данные" class="form__button button">
+        <input type="checkbox" name="checkbox" id="checkbox" class="form__checkbox">
+      </form>
+    </div>
+    <div class="fooner__right"></div>
+    <ul class="footer__right_list"></ul>
+  </footer>
 </body>
+
 </html>
