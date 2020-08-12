@@ -44,6 +44,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #333;
 }
 
 img {
@@ -60,6 +61,40 @@ ul {
   margin: 0 auto;
 }
 
-header{
+header {
+  display: flex;
   width: 100%;
+  height: 100px;
+  /* margin: 14px auto; */
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+}
+
+.header__logo {
+  width: 224px;
+  height: 72px;
+  margin-left: 70px;
+  margin-right: auto;
+}
+
+.header__nav_list {
+  display: flex;
+  /* margin-right: 71px; */
+}
+
+.header__nav_item {
+  margin-right: 71px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* text-align: center; */
+}
+
+.header__nav_search {
+  display: block;
+  margin-right: 28px;
+  width: 25.17px;
+  height: 25.62px;
+  background-image: url("/img/header/Search.png");
 }
