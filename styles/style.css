@@ -100,6 +100,7 @@ header {
 }
 
 .slider {
+  margin-bottom: 97px;
   max-width: 100%;
   height: 620px;
   background-image: url("/img/main/slider/slider.png");
@@ -140,4 +141,124 @@ header {
   text-align: center;
   color: #ffffff;
   border: none;
+}
+
+.title {
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 59px;
+}
+
+.about__title {
+  margin-bottom: 10px;
+}
+
+.text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.about__text {
+  max-width: 1235px;
+}
+
+.about__text_tooltip {
+  display: inline-block;
+  margin-right: 3px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #ff9900 url("/img/main/about/about_tooltip.png") no-repeat center
+    center;
+}
+
+.about__bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 44px;
+}
+
+.about__bottom_left {
+  width: 870px;
+  height: 622px;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0.31) 100%
+    ),
+    url("/img/main/about/about_left.png");
+}
+
+.about__left_container {
+  display: flex;
+  margin-right: 30px;
+  align-self: center;
+  margin-top: 446px;
+  width: 870px;
+  height: 176px;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(40px);
+}
+
+.about__left_text {
+  margin: 44px 76px 42px 54px;
+  width: 497px;
+  height: 90px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.about__left_button {
+  padding: 19px 38px;
+  margin: 58px auto;
+  margin-right: 68px;
+  width: 175px;
+  height: 60px;
+  border: 3px solid #ff9900;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.about__right_container {
+  width: 870px;
+  height: 295px;
+  background: #ffffff;
+  border: 1px solid #cacaca;
+}
+
+.container-top {
+  margin-bottom: 30px;
+  background: url('/img/main/about/about_right-top.png') no-repeat 83px center;
+}
+
+.container-bottom {
+  background: url('/img/main/about/about_right-bottom.png') no-repeat 83px center;
+}
+
+.sub_title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.about__right_title {
+  width: 452px;
+  margin-top: 70px;
+  margin-bottom: 10px;
+  margin-left: 300px;
+}
+
+.about__right_text {
+  width: 452px;
+  height: 156px;
+  margin-left: 300px;
+
 }
