@@ -149,6 +149,10 @@ header {
   line-height: 59px;
 }
 
+.about {
+  margin-bottom: 123px;
+}
+
 .about__title {
   margin-bottom: 10px;
 }
@@ -236,11 +240,12 @@ header {
 
 .container-top {
   margin-bottom: 30px;
-  background: url('/img/main/about/about_right-top.png') no-repeat 83px center;
+  background: url("/img/main/about/about_right-top.png") no-repeat 83px center;
 }
 
 .container-bottom {
-  background: url('/img/main/about/about_right-bottom.png') no-repeat 83px center;
+  background: url("/img/main/about/about_right-bottom.png") no-repeat 83px
+    center;
 }
 
 .sub_title {
@@ -260,5 +265,74 @@ header {
   width: 452px;
   height: 156px;
   margin-left: 300px;
+}
 
+.works__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.works__left {
+  width: 758px;
+}
+
+.works__title {
+  margin-bottom: 38px;
+}
+
+.list {
+  display: flex;
+  margin-bottom: 49px;
+}
+
+.works__item {
+  margin-right: 89px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.item_active {
+  margin-right: 85px;
+  color: #ff9900;
+}
+
+.works__left_title {
+  margin-bottom: 10px;
+}
+
+.works__text {
+  margin-bottom: 100px;
+}
+
+.button {
+  padding: 19px 38px;
+  width: 175px;
+  height: 60px;
+  background: #ff9900;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.works__button-right {
+  margin-left: 30px;
+  padding: 19px 38px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  background: none;
+  border: 1px solid #333333;
+  box-sizing: border-box;
+}
+
+.works__right {
+  margin-top: 186px;
+  width: 870px;
+  height: 465px;
+  background: url('/img/main/works/works.png'), #998A8A;
 }
