@@ -106,59 +106,64 @@
         <div class="container">
           <h2 class="faq__title title">Часто задаваемые вопросы</h2>
           <ul class="faq__list">
-            <li class="faq__item">Из чего формируется конечная стоимость проекта?<span class="faq__item_ellipse"></span></li>
-            <li class="faq__item">У меня есть свой проект. Сможем ли мы его доработать / реализовать?<span class="faq__item_ellipse"></span></li>
-            <li class="faq__item">Я выбираю между разными компаниями. В чём ваше отличие?<span class="faq__item_ellipse"></span></li>
-            <li class="faq__item">Могу ли я делегировать вам работу / согласование в подрядчиком / организацией?<span class="faq__item_ellipse"></span>
+            <li class="faq__item">Из чего формируется конечная стоимость проекта?<span class="faq__item_ellipse"></span>
             </li>
-            <li class="faq__item">Могу ли я вернуть деньги на каком-либо из этапов работ?<span class="faq__item_ellipse"></span></li>
+            <li class="faq__item">У меня есть свой проект. Сможем ли мы его доработать / реализовать?<span
+                class="faq__item_ellipse"></span></li>
+            <li class="faq__item">Я выбираю между разными компаниями. В чём ваше отличие?<span
+                class="faq__item_ellipse"></span></li>
+            <li class="faq__item">Могу ли я делегировать вам работу / согласование в подрядчиком / организацией?<span
+                class="faq__item_ellipse"></span>
+            </li>
+            <li class="faq__item">Могу ли я вернуть деньги на каком-либо из этапов работ?<span
+                class="faq__item_ellipse"></span></li>
           </ul>
         </div>
       </section>
     </div>
   </main>
   <footer class="footer">
-    <div class="footer__left">
-      <div class="footer__left_logo"></div>
-      <p class="footer__left_text">Высокий уровень вовлечения представителей целевой аудитории является четким
-        доказательством простого факта: разбавленное изрядной долей эмпатии, рациональное мышление позволяет оценить
-        значение модели развития. Таким образом, консультация с широким активом обеспечивает широкому кругу
-        (специалистов) участие в формировании стандартных подходов.</p>
-      <div class="footer__left_social">
-        <a href="facebook.com" class="social__link"><img src="/img/footer/fb.png" alt="facebook"
-            class="social__img"></a>
-        <a href="vk.com" class="social__link"><img src="/img/footer/vk.png" alt="vk" class="social__img"></a>
-        <a href="instagram.com" class="social__link"><img src="/img/footer/instagram.png" alt="instagram"
-            class="social__img"></a>
+    <div class="footer__container">
+      <div class="footer__left">
+        <div class="footer__left_logo"></div>
+        <p class="footer__left_text">Высокий уровень вовлечения представителей целевой аудитории является четким
+          доказательством простого факта: разбавленное изрядной долей эмпатии, рациональное мышление позволяет оценить
+          значение модели развития. Таким образом, консультация с широким активом обеспечивает широкому кругу
+          (специалистов) участие в формировании стандартных подходов.</p>
+        <div class="footer__left_social">
+          <a href="facebook.com" class="social__link"><img src="/img/footer/fb.png" alt="facebook"
+              class="social__img"></a>
+          <a href="vk.com" class="social__link"><img src="/img/footer/vk.png" alt="vk" class="social__img"></a>
+          <a href="instagram.com" class="social__link"><img src="/img/footer/instagram.png" alt="instagram"
+              class="social__img"></a>
+        </div>
+      </div>
+      <div class="footer__center">
+        <h2 class="footer__center_title">Оставить заявку</h2>
+        <form action="post" class="footer__center_form">
+          <input type="text" class="form__input" name="name" placeholder="Фамилия, имя и отчество*" required>
+          <input type="email" class="form__input" name="email" placeholder="E-mail*" required>
+          <textarea name="message" id="textarea" cols="30" rows="30" class="form__input form__textarea"
+            placeholder="Сообщение"></textarea>
+          <input type="submit" value="Отправить данные" class="form__button button">
+          <input type="checkbox" name="checkbox" id="checkbox" class="form__checkbox" checked>
+          <label for="checkbox" class="form__checkbox_text">Согласен на обработку данных</label>
+        </form>
+      </div>
+      <div class="footer__right">
+        <nav class="footer__right_nav">
+          <ul class="footer__nav_list">
+            <li class="footer__list_item"><a href="#" class="footer__item_link">О нас</a></li>
+            <li class="footer__list_item"><a href="#" class="footer__item_link">Проекты</a></li>
+            <li class="footer__list_item"><a href="#" class="footer__item_link">Отзывы</a></li>
+            <li class="footer__list_item"><a href="#" class="footer__item_link">Договор оферты</a></li>
+            <li class="footer__list_item"><a href="#" class="footer__item_link">Договор подряда</a></li>
+            <li class="footer__list_item"><a href="#" class="footer__item_link">Конфиденциальность</a></li>
+            <li class="footer__list_item"><a href="#" class="footer__item_link">Партнёрское соглашение</a></li>
+          </ul>
+        </nav>
       </div>
     </div>
-    <div class="footer__center">
-      <h2 class="footer__center_title">Оставить заявку</h2>
-      <form action="post" class="footer__center_form">
-        <input type="text" class="form__input" name="name" placeholder="Фамилия, имя и отчество*" required>
-        <input type="email" class="form__input" name="email" placeholder="E-mail*" required>
-        <textarea name="message" id="textarea" cols="30" rows="10" class="form__input form__textarea"
-          placeholder="Сообщение"></textarea>
-        <input type="submit" value="Отправить данные" class="form__button button">
-        <input type="checkbox" name="checkbox" id="checkbox" class="form__checkbox" checked>
-        <p class="form__checkbox_text">Согласен на обработку данных</p>
-      </form>
-    </div>
-    <div class="footer__right">
-      <nav class="footer__right_nav">
-        <ul class="footer__nav_list">
-          <li class="footer__list_item"><a href="#" class="footer__item_link">О нас</a></li>
-          <li class="footer__list_item"><a href="#" class="footer__item_link">Проекты</a></li>
-          <li class="footer__list_item"><a href="#" class="footer__item_link">Отзывы</a></li>
-          <li class="footer__list_item"><a href="#" class="footer__item_link">Договор оферты</a></li>
-          <li class="footer__list_item"><a href="#" class="footer__item_link">Договор подряда</a></li>
-          <li class="footer__list_item"><a href="#" class="footer__item_link">Конфиденциальность</a></li>
-          <li class="footer__list_item"><a href="#" class="footer__item_link">Партнёрское соглашение</a></li>
-        </ul>
-      </nav>
-
-    </div>
-
   </footer>
 </body>
 

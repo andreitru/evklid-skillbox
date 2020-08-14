@@ -363,7 +363,130 @@ header {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: url('/img/main/faq/x.png') no-repeat center #ececec;
-
+  background: url("/img/main/faq/x.png") no-repeat center #ececec;
 }
 
+.footer {
+  margin: 0 auto;
+  margin-top: 85px;
+  max-width: 1920px;
+  height: 630px;
+  background: #222222;
+  /* transform: matrix(0, -1, -1, 0, 0, 0); */
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.footer__left {
+  width: 363px;
+  margin-left: 75px;
+  margin-right: 231px;
+}
+
+.footer__left_logo {
+  margin-top: 48px;
+  margin-bottom: 6px;
+  width: 224px;
+  height: 72px;
+  background: url("/img/footer/footer-logo.png") no-repeat;
+}
+
+.footer__left_text {
+  margin-bottom: 44px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: #cacaca;
+}
+
+.footer__left_social {
+  display: flex;
+}
+
+.social__link {
+  display: block;
+  margin-right: 25px;
+  width: 60px;
+  height: 60px;
+}
+
+.footer__center {
+  width: 570px;
+  margin-right: 330px;
+}
+
+.footer__center_title {
+  margin-top: 57px;
+  margin-bottom: 31px;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 59px;
+  color: #cacaca;
+}
+
+.form__input {
+  margin-bottom: 25px;
+  width: 570px;
+  height: 60px;
+  background: #414141;
+  border: none;
+}
+
+.form__input::placeholder {
+  padding-left: 24px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: #cacaca;
+}
+
+.form__textarea {
+  margin-bottom: 31px;
+  height: 150px;
+}
+
+.form__textarea::placeholder {
+  padding-top: 14px;
+}
+
+.form__button {
+  margin-right: 31px;
+  width: 269px;
+}
+
+.form__checkbox {
+  width: 14px;
+  height: 14px;
+  border: 1px solid #cacaca;
+  background: none;
+}
+
+.form__checkbox_text {
+  display: inline;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: #cacaca;
+}
+
+.footer__right_nav{
+  width: 317px;
+  margin-top: 199px;
+  margin-right: 28px;
+}
+
+.footer__list_item {
+  margin-bottom: 20px;
+}
+
+.footer__item_link {
+  
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #CACACA;
+}
