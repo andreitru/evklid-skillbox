@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Montserrat";
-  src: url("./fonts/montserrat-regular-webfont.woff2") format("woff2"),
-    url("./fonts/montserrat-regular-webfont.woff") format("woff");
+  src: url("../fonts/montserrat-regular-webfont.woff2") format("woff2"),
+    url("../fonts/montserrat-regular-webfont.woff") format("woff");
   font-display: swap;
   font-weight: 400;
   font-style: normal;
@@ -10,7 +10,7 @@
 @font-face {
   font-family: "Montserrat";
   src: url("../fonts/montserrat-semibold-webfont.woff2") format("woff2"),
-    url("./fonts/montserrat-semibold-webfont.woff") format("woff");
+    url("../fonts/montserrat-semibold-webfont.woff") format("woff");
   font-display: swap;
   font-weight: 600;
   font-style: normal;
@@ -18,8 +18,8 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: url("../montserrat-bold-webfont.woff2") format("woff2"),
-    url("./fonts/montserrat-bold-webfont.woff") format("woff");
+  src: url("../fonts/montserrat-bold-webfont.woff2") format("woff2"),
+    url("../fonts/montserrat-bold-webfont.woff") format("woff");
   font-display: swap;
   font-weight: 700;
   font-style: normal;
@@ -28,7 +28,7 @@
 @font-face {
   font-family: "Montserrat";
   src: url("../fonts/montserrat-extrabold-webfont.woff2") format("woff2"),
-    url("./fonts/montserrat-extrabold-webfont.woff") format("woff");
+    url("../fonts/montserrat-extrabold-webfont.woff") format("woff");
   font-display: swap;
   font-weight: 800;
   font-style: normal;
@@ -37,7 +37,7 @@
 @font-face {
   font-family: "Montserrat";
   src: url("../fonts/montserrat-black-webfont.woff2") format("woff2"),
-    url("./fonts/montserrat-black-webfont.woff") format("woff");
+    url("../fonts/montserrat-black-webfont.woff") format("woff");
   font-display: swap;
   font-weight: 900;
   font-style: normal;
@@ -61,7 +61,7 @@ a {
 }
 
 img {
-  min-width: 100%;
+  max-width: 100%;
 }
 
 ul {
@@ -86,8 +86,8 @@ ul {
 }
 
 .header__logo {
-  width: 224px;
-  height: 72px;
+  max-width: 224px;
+  max-height: 72px;
   margin-left: 68px;
   margin-right: auto;
 }
@@ -108,23 +108,27 @@ ul {
 }
 
 .header__nav_item:first-child {
-  width: 55px;
+  /* max-width: 55px; */
+  min-width: 55px;
 }
 
 .header__nav_item:nth-child(2) {
-  width: 87px;
+  /* max-width: 87px; */
+  margin-right: 99px;
 }
 
 .header__nav_item:nth-child(3) {
-  width: 114px;
+  /* max-width: 114px; */
+  margin-right: 95px;
 }
 
 .header__nav_item:nth-child(4) {
-  width: 77px;
+  /* max-width: 77px; */
+  
 }
 
 .header__nav_item:nth-child(5) {
-  width: 92px;
+  /* max-width: 92px; */
 }
 
 .header__nav_search {
@@ -150,7 +154,7 @@ ul {
   margin-bottom: 17px;
   padding-top: 107px;
   padding-left: 78px;
-  width: 900px;
+  max-width: 900px;
   font-weight: 900;
   color: #fff;
   font-size: 70.3742px;
@@ -229,8 +233,8 @@ ul {
 }
 
 .about__bottom_left {
-  width: 870px;
-  height: 622px;
+  max-width: 870px;
+  max-height: 622px;
   background: linear-gradient(
       180deg,
       rgba(255, 255, 255, 0) 0%,
@@ -244,16 +248,16 @@ ul {
   margin-right: 30px;
   align-self: center;
   margin-top: 446px;
-  width: 870px;
-  height: 176px;
+  max-width: 870px;
+  max-height: 176px;
   background: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(40px);
 }
 
 .about__left_text {
-  margin: 40px 76px 42px 54px;
-  width: 497px;
-  height: 90px;
+  margin: 40px 45px 42px 54px;
+  max-width: 500px;
+  max-height: 90px;
   font-weight: bold;
   font-size: 16px;
   line-height: 200%;
@@ -264,7 +268,7 @@ ul {
 .about__left_button {
   padding: 19px 38px;
   margin: 58px auto;
-  margin-right: 68px;
+  margin-right: 38px;
   width: 175px;
   height: 60px;
   border: 3px solid #ff9900;
@@ -280,8 +284,8 @@ ul {
 
 .about__right_container {
   margin-top: 2px;
-  width: 870px;
-  height: 295px;
+  max-width: 870px;
+  max-height: 295px;
   background: #ffffff;
   border: 1px solid #cacaca;
 }
@@ -305,7 +309,7 @@ ul {
 }
 
 .about__right_title {
-  width: 462px;
+  max-width: 462px;
   margin-top: 60px;
   margin-bottom: 7px;
   margin-left: 300px;
@@ -385,9 +389,14 @@ ul {
 
 .works__right {
   margin-top: 186px;
-  width: 868px;
+  max-width: 868px;
+  /* min-width: 437px; */
   height: 465px;
-  background: url("../img/main/works/works.png"), #998a8a;
+  /* background: url("../img/main/works/works.png"), #998a8a; */
+}
+
+.works__right_img{
+
 }
 
 .faq {
@@ -437,7 +446,7 @@ ul {
 }
 
 .footer__left {
-  width: 363px;
+  max-width: 363px;
   margin-left: 68px;
   margin-right: 231px;
 }
@@ -471,7 +480,7 @@ ul {
 }
 
 .footer__center {
-  width: 570px;
+  max-width: 570px;
   margin-right: 338px;
 }
 
@@ -535,7 +544,7 @@ ul {
 }
 
 .footer__right_nav {
-  width: 317px;
+  max-width: 317px;
   margin-top: 199px;
   margin-right: 20px;
 }
