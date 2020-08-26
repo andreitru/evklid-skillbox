@@ -473,6 +473,10 @@ ul {
   background: url("../img/main/faq/x.png") no-repeat center #ececec;
 }
 
+.grey-slash {
+  color: #CACACA;
+}
+
 .footer {
   margin: 0 auto;
   margin-top: 86px;
