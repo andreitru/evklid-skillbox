@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Montserrat";
-  src: url("../fonts/montserrat-regular-webfont.woff2") format("woff2"),
-    url("../fonts/montserrat-regular-webfont.woff") format("woff");
+  src: url("../fonts/montserrat-regular.woff2") format("woff2"),
+    url("../fonts/montserrat-regular.woff") format("woff");
   font-display: swap;
   font-weight: 400;
   font-style: normal;
@@ -9,8 +9,8 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: url("../fonts/montserrat-semibold-webfont.woff2") format("woff2"),
-    url("../fonts/montserrat-semibold-webfont.woff") format("woff");
+  src: url("../fonts/montserrat-semibold.woff2") format("woff2"),
+    url("../fonts/montserrat-semibold.woff") format("woff");
   font-display: swap;
   font-weight: 600;
   font-style: normal;
@@ -18,8 +18,8 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: url("../fonts/montserrat-bold-webfont.woff2") format("woff2"),
-    url("../fonts/montserrat-bold-webfont.woff") format("woff");
+  src: url("../fonts/montserrat-bold.woff2") format("woff2"),
+    url("../fonts/montserrat-bold.woff") format("woff");
   font-display: swap;
   font-weight: 700;
   font-style: normal;
@@ -27,8 +27,8 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: url("../fonts/montserrat-extrabold-webfont.woff2") format("woff2"),
-    url("../fonts/montserrat-extrabold-webfont.woff") format("woff");
+  src: url("../fonts/montserrat-extrabold.woff2") format("woff2"),
+    url("../fonts/montserrat-extrabold.woff") format("woff");
   font-display: swap;
   font-weight: 800;
   font-style: normal;
@@ -36,8 +36,8 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: url("../fonts/montserrat-black-webfont.woff2") format("woff2"),
-    url("../fonts/montserrat-black-webfont.woff") format("woff");
+  src: url("../fonts/montserrat-black.woff2") format("woff2"),
+    url("../fonts/montserrat-black.woff") format("woff");
   font-display: swap;
   font-weight: 900;
   font-style: normal;
@@ -104,7 +104,7 @@ ul {
   font-size: 18px;
   /* line-height: 100px; */
   text-align: center;
-  letter-spacing: 0.85px;
+  /* letter-spacing: 0.85px; */
 }
 
 .header__nav_item:first-child {
@@ -119,7 +119,7 @@ ul {
 
 .header__nav_item:nth-child(3) {
   /* max-width: 114px; */
-  margin-right: 95px;
+  margin-right: 100px;
 }
 
 /* .header__nav_item:nth-child(4) {
@@ -141,7 +141,8 @@ ul {
 }
 
 .slider {
-  margin-bottom: 97px;
+ 
+  margin-bottom: 101px;
   /* margin-right: 31.5px;
   margin-left: 31.5px; */
   max-width: 100%;
@@ -155,12 +156,12 @@ ul {
   margin-bottom: 17px;
   padding-top: 107px;
   padding-left: 78px;
-  max-width: 900px;
-  font-weight: 900;
+  max-width: 910px;
+  font-weight: 800;
   color: #fff;
   font-size: 70.3742px;
   line-height: 86px;
-  letter-spacing: 5px;
+  /* letter-spacing: 5px; */
 }
 
 .slider__text {
@@ -171,30 +172,31 @@ ul {
   font-size: 23.4581px;
   line-height: 29px;
   color: #ffffff;
-  letter-spacing: 1.1px;
-  word-spacing: 1px;
+  /* letter-spacing: 1.1px; */
+  /* word-spacing: 1px; */
 }
 
 .slider__button {
   padding: 18.571px 37.1419px;
-  margin-left: 80.45px;
-  width: 280.52px;
+  margin-left: 80px;
+  width: 281px;
   height: 80px;
   background: #ff9900;
   font-weight: bold;
   font-size: 23.4581px;
-  line-height: 29px;
+  /* line-height: 23px; */
   text-align: center;
   color: #ffffff;
   border: none;
-  letter-spacing: 1.1px;
+  /* letter-spacing: 1.1px; */
 }
 
 .title {
   font-weight: normal;
   font-size: 48px;
   line-height: 59px;
-  letter-spacing: 3.3px;
+  margin-left: 2px;
+  /* letter-spacing: 3.3px; */
 }
 
 .about {
@@ -202,14 +204,14 @@ ul {
 }
 
 .about__title {
-  margin-bottom: 23px;
+  margin-bottom: 19px;
 }
 
 .text {
   font-weight: normal;
   font-size: 16px;
   line-height: 200%;
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
 }
 
 .about__text {
@@ -219,7 +221,8 @@ ul {
 
 .about__text_tooltip {
   display: inline-block;
-  margin-right: 3px;
+  margin-right: 5px;
+  margin-left: 5px;
   width: 16px;
   height: 16px;
   border-radius: 50%;
@@ -267,7 +270,7 @@ ul {
   font-size: 16px;
   line-height: 200%;
   color: #ffffff;
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
 }
 
 .about__left_button {
@@ -284,7 +287,7 @@ ul {
   text-align: center;
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0);
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
 }
 
 .about__right_container {
@@ -328,7 +331,7 @@ ul {
 
 .container-bottom_text {
   max-width: 452px;
-  margin-right: 105px;
+  margin-right: 107px;
   padding-bottom: 3px;
 }
 /* .container-bottom {
@@ -340,7 +343,7 @@ ul {
 .sub-title {
   font-weight: bold;
   font-size: 24px;
-  letter-spacing: 1.4px;
+  /* letter-spacing: 1.4px; */
   /* line-height: 29px; */
 }
 
@@ -374,41 +377,44 @@ ul {
 }
 
 .works__left {
-  max-width: 758px;
+  max-width: 759px;
 }
 
 .works__title {
-  margin-bottom: 46px;
+  margin-bottom: 47px;
+  margin-left: -1px;
+  margin-top: 1px;
 }
 
 .list {
   display: flex;
-  margin-bottom: 49px;
+  margin-bottom: 48px;
 }
 
 .works__item {
-  margin-right: 89px;
+  margin-right: 90px;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
 }
 
 .item_active {
-  margin-right: 87px;
   color: #ff9900;
 }
 
 .works__left_title {
   margin-bottom: 5px;
+  margin-left: 2px;
 }
 
 .works__text {
   margin-bottom: 60px;
+  margin-left: 1px;
 }
 
 .button {
-  padding: 19px 38px;
+  padding: 19px 37px;
   width: 177px;
   height: 60px;
   background: #ff9900;
@@ -418,12 +424,12 @@ ul {
   line-height: 20px;
   text-align: center;
   color: #ffffff;
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
 }
 
 .works__button-right {
   margin-left: 26px;
-  padding: 19px 39px;
+  padding: 19px 37px;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
@@ -431,7 +437,7 @@ ul {
   background: none;
   border: 1px solid #333333;
   box-sizing: border-box;
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
 }
 
 .works__right {
@@ -443,12 +449,12 @@ ul {
 }
 
 .faq {
-  margin-top: 85px;
+  margin-top: 89px;
 }
 
 .faq__title {
   border-bottom: 1px solid #cacaca;
-  padding-bottom: 38px;
+  padding-bottom: 34px;
 }
 
 .faq__item {
@@ -462,7 +468,7 @@ ul {
   font-size: 24px;
   line-height: 32px;
   border-bottom: 1px solid #cacaca;
-  letter-spacing: 1.35px;
+  /* letter-spacing: 1.35px; */
 }
 
 .faq__item_ellipse {
@@ -487,6 +493,7 @@ ul {
 }
 
 .footer__container {
+  /* max-width: 1770px; */
   display: flex;
   justify-content: space-between;
   align-items: start;
@@ -494,8 +501,11 @@ ul {
 
 .footer__left {
   max-width: 363px;
+  /* max-width: 34%; */
+  min-width: 230px;
   margin-left: 68px;
-  margin-right: 231px;
+  /* margin-right: 237px; */
+  border: 1px solid white;
 }
 
 .footer__left_logo {
@@ -503,7 +513,7 @@ ul {
   margin-bottom: 6px;
   width: 224px;
   height: 72px;
-  background: url("../img/footer/footer-logo.png") no-repeat;
+  background: url("/img/footer/footer-logo.png") no-repeat;
 }
 
 .footer__left_text {
@@ -512,7 +522,7 @@ ul {
   font-size: 16px;
   line-height: 32px;
   color: #cacaca;
-  letter-spacing: 1.35px;
+  letter-spacing: 1.1px;
 }
 
 .footer__left_social {
@@ -527,28 +537,31 @@ ul {
 }
 
 .footer__center {
-  max-width: 570px;
-  margin-right: 338px;
+  /* max-width: 570px; */
+  flex-basis: 570px;
+  margin-right: 170px;
+  
+  border: 1px solid white;
 }
 
 .footer__center_title {
   margin-top: 57px;
-  margin-bottom: 23px;
-  padding-left: 7px;
+  margin-bottom: 31px;
   font-weight: normal;
   font-size: 48px;
   line-height: 59px;
   color: #cacaca;
-  letter-spacing: 1.35px;
+  
 }
 
 .form__input {
   margin-bottom: 25px;
-  margin-left: 8px;
   width: 570px;
+  /* min-width: 100%; */
   height: 60px;
   background: #414141;
   border: none;
+  
 }
 
 .form__input::placeholder {
@@ -557,11 +570,10 @@ ul {
   font-size: 16px;
   line-height: 32px;
   color: #cacaca;
-  letter-spacing: 1.35px;
 }
 
 .form__textarea {
-  margin-bottom: 27px;
+  margin-bottom: 31px;
   height: 150px;
 }
 
@@ -571,7 +583,6 @@ ul {
 
 .form__button {
   margin-right: 31px;
-  margin-left: 8px;
   width: 269px;
 }
 
@@ -590,19 +601,25 @@ ul {
   color: #cacaca;
 }
 
-.footer__right_nav {
-  max-width: 317px;
+.footer__right {
+  max-width: 270px;
+  margin-right: 28px;
+  border: 1px solid white;
+}
+
+.footer__right_nav{
+  /* width: 317px; */
   margin-top: 199px;
-  margin-right: 20px;
+  /* margin-right: 28px; */
 }
 
 .footer__list_item {
-  margin-bottom: 14px;
+  margin-bottom: 20px;
 }
 
 .footer__item_link {
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
-  color: #cacaca;
+  color: #CACACA;
 }
