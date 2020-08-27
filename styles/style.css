@@ -537,7 +537,7 @@ ul {
 
 .footer__center {
   /* max-width: 570px; */
-  flex-basis: 579px;
+  max-width: 579px;
   margin-right: auto;
   margin-left: auto;
   /* flex-shrink: 1; */
@@ -631,4 +631,8 @@ ul {
   font-size: 18px;
   line-height: 1;
   color: #CACACA;
+}
+
+.footer__hidden {
+  display: none;
 }
