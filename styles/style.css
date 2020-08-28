@@ -65,8 +65,10 @@ ul {
 }
 
 .container {
-  max-width: 1770px;
+  max-width: 1870px;
   margin: 0 auto;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 .header {
@@ -122,8 +124,8 @@ ul {
 }
 
 .header__nav_search {
-  margin-right: 8px;
-  margin-top: -6px;
+  margin-top: -5px;
+  margin-right: 9px;
   width: 25.17px;
   height: 25px;
   border: none;
@@ -210,7 +212,7 @@ ul {
 
 .about__text {
   max-width: 1235px;
-  height: 192px;
+  min-height: 192px;
 }
 
 .about__text_tooltip {
@@ -248,7 +250,7 @@ ul {
 }
 .about__left_container {
   display: flex;
-  align-self: center;
+  align-items: center;
   margin-top: 446px;
   max-width: 870px;
   max-height: 176px;
@@ -257,9 +259,10 @@ ul {
 }
 
 .about__left_text {
-  margin: 40px 45px 42px 54px;
+  margin-left: 54px;
+  margin-right: 10px;
   max-width: 500px;
-  max-height: 90px;
+  min-height: 90px;
   font-weight: bold;
   font-size: 16px;
   line-height: 200%;
@@ -291,7 +294,7 @@ ul {
 
 .about__right_container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   margin-top: 2px;
   max-width: 870px;
@@ -307,25 +310,27 @@ ul {
 .container-top_img {
   min-width: 200px;
   height: 150px;
-  margin-left: 70px;
+  margin-left: 10px;
+  margin-right: 15px;
   background: url("../img/main/about/about_right-top.png") no-repeat left -12px;
 }
 
 .container-top_text {
   max-width: 452px;
-  margin-right: 105px;
+  margin-right: 45px;
 }
 
 .container-bottom_img {
   min-width: 200px;
   height: 180px;
-  margin-left: 70px;
+  margin-left: 10px;
+  margin-right: 15px;
   background: url("../img/main/about/about_right-bottom.png") no-repeat left -5px;
 }
 
 .container-bottom_text {
   max-width: 452px;
-  margin-right: 107px;
+  margin-right: 45px;
   padding-bottom: 3px;
 }
 
@@ -350,7 +355,7 @@ ul {
 }
 
 .works__left {
-  max-width: 759px;
+  max-width: 769px;
 }
 
 .works__title {
@@ -392,6 +397,7 @@ ul {
 .works__text {
   margin-bottom: 60px;
   margin-left: 1px;
+  margin-right: 10px;
 }
 
 .button {
@@ -474,7 +480,7 @@ ul {
 
 .faq__item_ellipse {
   display: inline-block;
-  width: 50px;
+  min-width: 50px;
   height: 50px;
   border-radius: 50%;
   background: url("../img/main/faq/x.svg") no-repeat center #ececec;

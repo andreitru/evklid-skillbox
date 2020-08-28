@@ -2,27 +2,40 @@
 
 @media (max-width: 1366px) {
   .container {
-    max-width: 1266px;
+    max-width: 1366px;
+  }
+
+  .header__nav_item,
+  .header__nav_item:nth-child(2),
+  .header__nav_item:nth-child(3) {
+    margin-right: 40px;
   }
 
   .about__left_text {
     margin-top: 5px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    line-height: 150%;
   }
 
   .about__left_button {
-    margin-right: 30px;
+    margin-right: 10px;
   }
 
   .container-top_text,
   .container-bottom_text {
-    margin-right: 15px;
+    margin-right: 10px;
+    line-height: 150%;
+  }
+
+  .about__right_text {
+    line-height: 150%;
   }
 
   .container-top_img,
   .container-bottom_img {
-    margin-left: 15px;
+    margin-left: 10px;
+    margin-right: 0;
   }
 
   .container-top {
@@ -51,12 +64,12 @@
   }
 
   .footer__left {
-    margin-left: 10px;
+    margin-left: 20px;
   }
 
   .footer__right {
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 20px;
   }
 }
 
@@ -64,7 +77,9 @@
 
 @media (max-width: 1024px) {
   .container {
-    max-width: 924px;
+    max-width: 984px;
+    padding-right: 30px;
+    padding-left: 30px;
   }
 
   .header__logo {
@@ -143,6 +158,7 @@
 
   .about__left_text {
     margin: 39px 45px 42px 45px;
+    line-height: 200%;
   }
 
   .about__left_button {
@@ -163,18 +179,29 @@
   }
 
   .container-top_img {
-    margin-left: 92px;
+    margin-left: 41px;
+    margin-right: 39px;
     margin-top: 6px;
   }
 
   .container-bottom_img {
-    margin-left: 91px;
+    margin-left: 41px;
+    margin-right: 38px;
     margin-top: 10px;
   }
 
   .container-top_text,
   .container-bottom_text {
-    margin-right: 102px;
+    margin-right: 50px;
+    line-height: 200%;
+  }
+
+  .about__right_title {
+    margin-top: 0;
+  }
+
+  .about__right_text {
+    line-height: 200%;
   }
 
   .works__right {
@@ -210,6 +237,7 @@
 
   .works__text {
     margin-bottom: 28px;
+    margin-right: 0;
   }
 
   .button {
@@ -302,13 +330,24 @@
 
 @media (max-width: 992px) {
   .container {
-    max-width: 882px;
+    max-width: 942px;
+    padding-right: 30px;
+    padding-left: 30px;
   }
 
   .header__nav_item,
   .header__nav_item:nth-child(2),
   .header__nav_item:nth-child(3) {
     margin-right: 40px;
+  }
+
+  .slider__text {
+    padding-right: 20px;
+    max-width: 100%;
+  }
+
+  .about__bottom {
+    margin-top: 82px;
   }
 
   .works__right {
@@ -338,12 +377,17 @@
     max-width: 515px;
   }
 
+  .footer__hidden {
+    padding-right: 20px;
+  }
+
   .footer__center {
     margin-right: 5px;
+    margin-left: 20px;
   }
 
   .form__input {
-    width: 490px;
+    width: 430px;
   }
 
   .form__checkbox_container {
