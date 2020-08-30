@@ -359,14 +359,17 @@ ul {
 }
 
 .works__title {
-  margin-bottom: 47px;
+  margin-bottom: 35px;
   margin-left: -1px;
   margin-top: 1px;
 }
 
 .list {
   display: flex;
-  margin-bottom: 48px;
+  width: 471px;
+  margin-bottom: 47px;
+  
+  border-top: 3px solid #cacaca;
 }
 
 .works__item {
@@ -374,6 +377,11 @@ ul {
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
+  padding-top: 10px;
+}
+
+.works__item:last-child {
+  margin-right: 0;
 }
 
 .works__item a {
@@ -387,6 +395,8 @@ ul {
 
 .item_active {
   color: #ff9900;
+  padding-top: 12px;
+  border-top: 3px solid #FF9900;
 }
 
 .works__left_title {

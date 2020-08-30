@@ -83,7 +83,7 @@
   }
 
   .header__logo {
-    margin-left: 43px;
+    margin-left: 50px;
     margin-top: 6px;
     max-width: 150px;
   }
@@ -278,6 +278,7 @@
   }
 
   .footer {
+
     margin-top: 58px;
   }
 
@@ -313,7 +314,7 @@
 
   .footer__hidden {
     display: block;
-    margin-right: 48px;
+    margin-right: 56px;
   }
 
   .footer__left_logo {
@@ -360,6 +361,11 @@
     flex-direction: column;
     justify-content: space-between;
   }
+
+  .list {
+    width: 380px;
+  }
+  
 
   .works__item {
     margin-right: 55px;
