@@ -413,6 +413,12 @@
     padding-left: 25px;
     padding-right: 25px;
   }
+
+  .container:first-child {
+    max-width: 100%;
+    padding: 0;
+  }
+
   .header {
     flex-direction: column;
     align-items: center;
@@ -434,8 +440,6 @@
   }
 
   .header__nav_list {
-    /* height: 100%; */
-    /* margin-top: 19px; */
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -454,6 +458,20 @@
 
   .header__nav_item:last-child {
     margin-right: 45px;
+  }
+
+  .slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 638px;
+    background-image: url("../img/main/slider/slider-768.png");
+    background-size: cover;
+    background-position-y: bottom;
+  }
+
+  .slider__title {
+    padding-top: 15px;
   }
 
   .slider__text {
@@ -500,7 +518,8 @@
 /* max-width 576px */
 
 @media (max-width: 576px) {
-  .container {
+  .container,
+  .container:first-child {
     max-width: 516px;
     padding-left: 20px;
     padding-right: 20px;
@@ -528,12 +547,46 @@
     display: flex;
     margin-right: 15px;
   }
+
+  .slider {
+    height: 400px;
+    align-items: center;
+    
+  }
+
+  .slider__title {
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .slider__text {
+    margin-bottom: 50px;
+    padding: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .slider__button {
+    margin-left: 0;
+    width: 220px;
+    height: 60px;
+    font-size: 15px;
+  }
 }
 
 /* max-width 320px */
 
 @media (max-width: 320px) {
-  .container {
+  .container,
+  .container:first-child {
     max-width: 100%;
     padding-left: 15px;
     padding-right: 15px;
@@ -545,5 +598,37 @@
 
   .header__logo {
     width: 97px;
+  }
+
+  .slider {
+    height: 262px;
+    background-image: url('../img/main/slider/slider-320.png');
+    background-position-y: bottom;
+  }
+
+  .slider__title {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .slider__text {
+    margin-top: -1px;
+    margin-bottom: 34px;
+    padding-left: 8px;
+    padding-right: 10px;
+    max-width: 250px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+  }
+
+  .slider__button {
+    padding: 14px;
+    margin-bottom: 9px;
+    width: 162px;
+    height: 40px;
+    font-size: 12px;
   }
 }
