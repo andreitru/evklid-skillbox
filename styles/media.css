@@ -616,13 +616,11 @@
   .footer__nav_list {
     display: flex;
     flex-direction: column;
-    align-items: space-between;
     align-content: space-between;
     flex-wrap: wrap;
     margin-right: 40px;
     height: 201px;
   }
-
 }
 
 /* max-width 576px */
@@ -675,7 +673,6 @@
 
   .slider__text {
     margin-bottom: 50px;
-    padding: auto;
     padding-left: 25px;
     padding-right: 25px;
     font-size: 15px;
@@ -1019,54 +1016,50 @@
   .faq__item_ellipse {
     min-width: 30px;
     height: 30px;
-    background-image: url('../img/main/faq/x-320.svg');
+    background-image: url("../img/main/faq/x-320.svg");
   }
 
-   .footer {
-     margin-top: 39px;
-   }
+  .footer {
+    margin-top: 39px;
+  }
 
-   /* .footer__container {
-     height: 320px;
-   } */
-
-   .footer__center_title {
+  .footer__center_title {
     font-weight: normal;
     font-size: 24px;
     line-height: 29px;
     padding-top: 40px;
-   }
+  }
 
-   .form__input::placeholder {
+  .form__input::placeholder {
     font-weight: normal;
     font-size: 14px;
     line-height: 32px;
     padding-left: 18px;
-   }
+  }
 
-   .form__textarea {
-     margin-bottom: 22px;
-   }
+  .form__textarea {
+    margin-bottom: 22px;
+  }
 
-   .form__button {
+  .form__button {
     font-size: 12px;
     line-height: 15px;
     width: 180px;
-   }
+  }
 
-   .form__checkbox {
-     margin-top: 20px;
-   }
+  .form__checkbox {
+    margin-top: 20px;
+  }
 
-   .footer__left_logo {
-     width: 131px;
-     height: 42px;
-     margin-bottom: 15px;
-   }
+  .footer__left_logo {
+    width: 131px;
+    height: 42px;
+    margin-bottom: 15px;
+  }
 
-   .social__link {
-     width: 34px;
-     height: 34px;
-     margin-right: 14.3px;
-   }
+  .social__link {
+    width: 34px;
+    height: 34px;
+    margin-right: 14.3px;
+  }
 }

@@ -1,7 +1,6 @@
 @font-face {
   font-family: "Montserrat";
-  src: 
-    url("../fonts/montserrat-regular.woff2") format("woff2"),
+  src: url("../fonts/montserrat-regular.woff2") format("woff2"),
     url("../fonts/montserrat-regular.woff") format("woff");
   font-display: swap;
   font-weight: 400;
@@ -10,8 +9,7 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: 
-    url("../fonts/montserrat-semibold.woff2") format("woff2"),
+  src: url("../fonts/montserrat-semibold.woff2") format("woff2"),
     url("../fonts/montserrat-semibold.woff") format("woff");
   font-display: swap;
   font-weight: 600;
@@ -20,8 +18,7 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: 
-    url("../fonts/montserrat-bold.woff2") format("woff2"),
+  src: url("../fonts/montserrat-bold.woff2") format("woff2"),
     url("../fonts/montserrat-bold.woff") format("woff");
   font-display: swap;
   font-weight: 700;
@@ -30,8 +27,7 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: 
-    url("../fonts/montserrat-extrabold.woff2") format("woff2"),
+  src: url("../fonts/montserrat-extrabold.woff2") format("woff2"),
     url("../fonts/montserrat-extrabold.woff") format("woff");
   font-display: swap;
   font-weight: 800;
@@ -145,9 +141,9 @@ ul {
   width: 25px;
   height: 25px;
   cursor: pointer;
-} 
+}
 
-.burger__span, 
+.burger__span,
 .burger__span::before,
 .burger__span::after {
   display: block;
@@ -158,12 +154,12 @@ ul {
 }
 
 .burger__span::before {
-  content: '';
+  content: "";
   top: -8px;
 }
 
 .burger__span::after {
-  content: '';
+  content: "";
   top: 8px;
 }
 
@@ -250,8 +246,8 @@ ul {
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: 
-    #ff9900 url("../img/main/about/about_tooltip.png") no-repeat center center;
+  background: #ff9900 url("../img/main/about/about_tooltip.png") no-repeat
+    center center;
 }
 
 .about__bottom {
@@ -263,8 +259,7 @@ ul {
 .about__bottom_left {
   width: 49.17%;
   max-height: 622px;
-  background: 
-    linear-gradient(
+  background: linear-gradient(
       180deg,
       rgba(255, 255, 255, 0) 0%,
       rgba(0, 0, 0, 0.31) 100%
@@ -396,7 +391,7 @@ ul {
   display: flex;
   width: 471px;
   margin-bottom: 47px;
-  
+
   border-top: 3px solid #cacaca;
 }
 
@@ -424,7 +419,7 @@ ul {
 .item_active {
   color: #ff9900;
   padding-top: 12px;
-  border-top: 3px solid #FF9900;
+  border-top: 3px solid #ff9900;
 }
 
 .works__left_title {
