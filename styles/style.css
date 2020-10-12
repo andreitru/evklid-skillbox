@@ -628,6 +628,13 @@ ul {
   padding-top: 14px;
 }
 
+.form__checkbox_container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-end;
+}
+
 .form__button {
   margin-right: 27px;
   margin-left: 2px;
@@ -637,6 +644,7 @@ ul {
 .form__checkbox {
   width: 14px;
   height: 14px;
+  margin-right: 5px;
   border: 1px solid #cacaca;
   background: none;
 }

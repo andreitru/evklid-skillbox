@@ -52,7 +52,8 @@
 
   .form__checkbox_container {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+    align-items: flex-start;
   }
 
   .form__button {
@@ -61,6 +62,10 @@
 
   .footer__center_title {
     font-size: 40px;
+  }
+
+  .form__checkbox {
+    margin-top: 23px;
   }
 
   .footer__left {
@@ -300,7 +305,8 @@
   }
 
   .form__checkbox_container {
-    flex-direction: row;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
   }
 
   .form__checkbox {
@@ -394,7 +400,7 @@
   }
 
   .form__checkbox_container {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .footer__hidden {
@@ -599,8 +605,9 @@
   }
 
   .form__checkbox_container {
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    align-items: baseline;
   }
 
   .footer__right {
@@ -830,7 +837,7 @@
   }
 
   .form__checkbox_container {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
   }
 
