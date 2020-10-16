@@ -103,8 +103,27 @@
 
   .slider {
     height: 768px;
-    background: url("../img/main/slider/slider-1024.png") no-repeat 0 -100px;
     margin-bottom: -38px;
+  }
+
+  .swiper-container {
+    height: 768px;
+  }
+
+  .slide-1 {
+    background: url("../img/main/slider/slider-1024.png") no-repeat 0 -100px;
+  }
+
+  .slide-2 {
+    background: url("../img/main/slider/slides/slider-1024-2.png") no-repeat 0 -100px;
+  }
+
+  .slide-3 {
+    background: url("../img/main/slider/slides/slider-1024-3.png") no-repeat 0 -100px;
+  }
+
+  .swiper-pagination-bullet {
+    margin-bottom: 115px !important;
   }
 
   .slider__title {
@@ -263,6 +282,11 @@
     font-size: 20px;
   }
 
+  .accordion_text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
   .faq__item_text {
     max-width: 778px;
   }
@@ -346,9 +370,13 @@
     margin-right: 40px;
   }
 
-  .slider__text {
+  .slider__text_container {
     padding-right: 20px;
     max-width: 100%;
+  }
+
+  .slider__title {
+    padding-top: 100px;
   }
 
   .about__bottom {
@@ -464,21 +492,42 @@
   }
 
   .slider {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     height: 638px;
-    background-image: url("../img/main/slider/slider-768.png");
+  }
+
+  .swiper-container {
+    height: 638px;
+  }
+
+  .slide-1 {
+    background: url("../img/main/slider/slider-768.png") no-repeat;
     background-size: cover;
     background-position-y: bottom;
   }
 
+  .slide-2 {
+    background: url("../img/main/slider/slides/slider-768-2.png") no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+  }
+
+  .slide-3 {
+    background: url("../img/main/slider/slides/slider-768-3.png") no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+  }
+
+  .swiper-pagination-bullet {
+    margin-bottom: 0 !important;
+  }
+
   .slider__title {
-    padding-top: 15px;
+    padding-top: 90px;
   }
 
   .slider__text {
     width: 100%;
+    margin-bottom: 50px;
   }
 
   .about {
@@ -656,7 +705,38 @@
   }
 
   .header__nav {
-    display: none;
+    position: absolute;
+    top: 0;
+    height: 40px;
+    background-color: rgba(235, 225, 225, 0.8);
+    z-index: -100000;
+    transition: all 0.1s ease-in-out;
+  }
+
+  .header__nav-visible {
+    top: 60px;
+    z-index: 1100;
+  }
+
+  .header__nav_item {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .header__nav_item:first-child {
+    margin-left: 10px;
+    min-width: auto;
+  }
+
+  .header__nav_item:last-child {
+    margin-right: 10px;
+  }
+
+  .header__nav_search {
+    margin-top: 0;
+    width: 15px;
+    height: 15px;
+    background-size: cover;
   }
 
   .burger {
@@ -666,20 +746,31 @@
 
   .slider {
     height: 400px;
+  }
+
+  .slider__text_container {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    padding-right: 0;
+  }
+
+  .swiper-container {
+    height: 400px;
   }
 
   .slider__title {
     padding-bottom: 20px;
     padding-left: 25px;
     padding-right: 25px;
+    padding-top: 50px;
     font-size: 30px;
     line-height: 30px;
     text-align: center;
   }
 
   .slider__text {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     padding-left: 25px;
     padding-right: 25px;
     font-size: 15px;
@@ -801,6 +892,11 @@
     line-height: 28px;
   }
 
+  .accordion_text {
+    font-size: 14px;
+    padding: 10px;
+  }
+
   .faq__item_ellipse {
     min-width: 40px;
     height: 40px;
@@ -866,14 +962,39 @@
     width: 97px;
   }
 
+  .header__nav-visible {
+    top: 45px;
+  }
+
   .slider {
     height: 262px;
-    background-image: url("../img/main/slider/slider-320.png");
+  }
+
+  .swiper-container {
+    height: 262px;
+  }
+
+  .slide-1 {
+    background: url("../img/main/slider/slider-320.png");
     background-position-y: bottom;
   }
 
+  .slide-2 {
+    background: url("../img/main/slider/slides/slider-320-2.png");
+    background-position-y: bottom;
+  }
+
+  .slide-3 {
+    background: url("../img/main/slider/slides/slider-320-3.png");
+    background-position-y: bottom;
+  }
+
+  .swiper-pagination-bullet {
+    display: none;
+  }
+
   .slider__title {
-    padding-top: 0;
+    padding-top: 30px;
     padding-bottom: 0;
     font-size: 20px;
     line-height: 24px;
@@ -1018,6 +1139,10 @@
     padding-bottom: 21px;
     font-size: 14px;
     line-height: 24px;
+  }
+
+  .accordion_text {
+    font-size: 12px;
   }
 
   .faq__item_ellipse {
