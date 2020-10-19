@@ -669,7 +669,6 @@ ul {
 .form__input::placeholder {
   font-weight: normal;
   font-size: 16px;
-  line-height: 32px;
   color: #cacaca;
 }
 
@@ -677,6 +676,7 @@ ul {
   margin-bottom: 27px;
   padding-top: 14px;
   height: 150px;
+  resize: none;
 }
 
 .form__checkbox_container {

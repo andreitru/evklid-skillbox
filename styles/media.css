@@ -831,7 +831,7 @@
     margin: 0;
     padding: 8px 15px;
     width: 162px;
-    height: 40px;
+    min-height: 40px;
     color: #ff9900;
     border-width: 2px;
     font-size: 12px;
