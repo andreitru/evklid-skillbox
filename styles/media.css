@@ -111,15 +111,15 @@
   }
 
   .slide-1 {
-    background: url("../img/main/slider/slider-1024.png") no-repeat 0 -100px;
+    background: url("../img/main/slider/slider-1024.webp") no-repeat 0 -100px;
   }
 
   .slide-2 {
-    background: url("../img/main/slider/slides/slider-1024-2.png") no-repeat 0 -100px;
+    background: url("../img/main/slider/slides/slider-1024-2.webp") no-repeat 0 -100px;
   }
 
   .slide-3 {
-    background: url("../img/main/slider/slides/slider-1024-3.png") no-repeat 0 -100px;
+    background: url("../img/main/slider/slides/slider-1024-3.webp") no-repeat 0 -100px;
   }
 
   .swiper-pagination-bullet {
@@ -231,7 +231,7 @@
   .works__right {
     margin-top: 7px;
     margin-right: -1px;
-    background: url("../img/main/works/works-1024.png");
+    background: url("../img/main/works/works-1024.webp");
   }
 
   .works__title {
@@ -500,19 +500,19 @@
   }
 
   .slide-1 {
-    background: url("../img/main/slider/slider-768.png") no-repeat;
+    background: url("../img/main/slider/slider-768.webp") no-repeat;
     background-size: cover;
     background-position-y: bottom;
   }
 
   .slide-2 {
-    background: url("../img/main/slider/slides/slider-768-2.png") no-repeat;
+    background: url("../img/main/slider/slides/slider-768-2.webp") no-repeat;
     background-size: cover;
     background-position-y: bottom;
   }
 
   .slide-3 {
-    background: url("../img/main/slider/slides/slider-768-3.png") no-repeat;
+    background: url("../img/main/slider/slides/slider-768-3.webp") no-repeat;
     background-size: cover;
     background-position-y: bottom;
   }
@@ -588,7 +588,7 @@
     min-width: 100%;
     margin-bottom: 38px;
     height: 284px;
-    background: url("../img/main/works/works.png") no-repeat;
+    background: url("../img/main/works/works.webp") no-repeat;
   }
 
   .works__title {
@@ -975,17 +975,17 @@
   }
 
   .slide-1 {
-    background: url("../img/main/slider/slider-320.png");
+    background: url("../img/main/slider/slider-320.webp");
     background-position-y: bottom;
   }
 
   .slide-2 {
-    background: url("../img/main/slider/slides/slider-320-2.png");
+    background: url("../img/main/slider/slides/slider-320-2.webp");
     background-position-y: bottom;
   }
 
   .slide-3 {
-    background: url("../img/main/slider/slides/slider-320-3.png");
+    background: url("../img/main/slider/slides/slider-320-3.webp");
     background-position-y: bottom;
   }
 

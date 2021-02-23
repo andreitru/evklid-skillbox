@@ -75,7 +75,7 @@ ul {
   height: 100px;
   align-items: center;
   background: #ffffff;
-  box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 40px rgba(0, 0, 0, 0.1);
 }
 
 .header__logo {
@@ -197,15 +197,15 @@ ul {
 }
 
 .slide-1 {
-  background: url("../img/main/slider/slider.png");
+  background: url("../img/main/slider/slider.webp");
 }
 
 .slide-2 {
-  background: url("../img/main/slider/slides/slider-2.png");
+  background: url("../img/main/slider/slides/slider-2.webp");
 }
 
 .slide-3 {
-  background: url("../img/main/slider/slides/slider-3.png");
+  background: url("../img/main/slider/slides/slider-3.webp");
 }
 
 .swiper-pagination-bullet {
@@ -312,8 +312,9 @@ ul {
       180deg,
       rgba(255, 255, 255, 0) 0%,
       rgba(0, 0, 0, 0.31) 100%
-    ),
-    url("../img/main/about/about_left.png") -14px 0px;
+    );
+    /*url("../img/main/about/about_left.webp") -14px 0px;*/
+  background-position: -14px 0;
   background-size: cover;
 }
 
@@ -384,7 +385,9 @@ ul {
   height: 150px;
   margin-left: 10px;
   margin-right: 15px;
-  background: url("../img/main/about/about_right-top.png") no-repeat left -12px;
+  /*background: url("../img/main/about/about_right-top.webp") no-repeat left -12px;*/
+  background-repeat: no-repeat;
+  background-position: left -12px;
 }
 
 .container-top_text {
@@ -397,7 +400,9 @@ ul {
   height: 180px;
   margin-left: 10px;
   margin-right: 15px;
-  background: url("../img/main/about/about_right-bottom.png") no-repeat left -5px;
+  /*background: url("../img/main/about/about_right-bottom.webp") no-repeat left -5px;*/
+  background-repeat: no-repeat;
+  background-position: left -5px;
 }
 
 .container-bottom_text {
@@ -525,7 +530,7 @@ ul {
 .works__right {
   width: 868px;
   height: 465px;
-  background: url("../img/main/works/works.png"), #998a8a;
+  background: url("../img/main/works/works.webp");
 }
 
 .faq {
@@ -608,7 +613,7 @@ ul {
   margin-bottom: 6px;
   width: 224px;
   height: 72px;
-  background: url("../img/footer/footer-logo.svg") no-repeat;
+  background: url("../img/footer/footer-logo.webp") no-repeat;
 }
 
 .footer__left_text {

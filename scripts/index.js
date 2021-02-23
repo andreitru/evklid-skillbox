@@ -34,3 +34,9 @@ burger.addEventListener('click', function() {
   menu.classList.toggle('header__nav-visible')
   burgerSpan.classList.toggle('burger__span-active')
 });
+
+// lazyload
+
+let lazyLoad = new LazyLoad({
+
+});
